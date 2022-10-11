@@ -1,0 +1,26 @@
+ERROR: After October 2020 you may experience errors when installing or updating packages. This is because pip will change the way that it resolves dependency conflicts.
+
+We recommend you use --use-feature=2020-resolver to test your packages with the new resolver before it becomes the default.
+
+conda 4.10.3 requires ruamel_yaml_conda>=0.11.14, which is not installed.
+conda-repo-cli 1.0.4 requires pathlib, which is not installed.
+requests 2.24.0 requires urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1, but you'll have urllib3 1.26.8 which is incompatible.
+
+
+
+
+Pouring geckodriver--0.29.1.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/geckodriver/0.29.1: 6 files, 5.5MB
+
+/usr/local/bin/geckodriver
+
+Pouring geckodriver--0.29.1.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/geckodriver/0.29.1: 6 files, 5.5MB
+
+/usr/local/Cellar/geckodriver/0.29.1/bin/geckodriver
+
+
+/Users/albertomengual/opt/anaconda3/bin/geckodriver
+
+
+export PATH=$PATH:/gekodriver
